@@ -1,0 +1,115 @@
+*{
+	box-sizing: border-box;
+}
+body {
+	background-color: #3399CC;
+	color: #fff;
+	padding: 10px 10px;
+}
+.content {
+    width: 700px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.weather-wrap {
+   list-style: none;
+   width: 100%;
+   border: 3px solid #fff;
+   padding: 0;
+   font-size: 0;
+   margin: 20px 0;
+}
+.weather-element{
+	border: 2px solid #fff;
+	display: inline-block;
+	padding: 5px 0;
+	font-size: 20px;
+    opacity: 1;
+    width: 25%;
+}
+.weather-medium {
+	width: 50%;
+}
+.weather-element.weather-big{
+	width: 100%;
+}
+.city-name, .temp{
+	text-align: center;
+	height: 35px;
+	line-height: 35px;
+}
+.city-name{
+	font-weight: 500;
+}
+.temp{
+	opacity: 0.65;
+}
+.Lisbon {
+	background-color: #3399CC;
+}
+.Paris {
+	background-color: #33CCCC;
+}
+.Belgrade {
+	background-color: #996699;
+}
+.Moscow {
+	background-color: #C24747;
+}
+.Tel-Aviv {
+	background-color: #E2674A;
+}
+.Cair {
+	background-color: #FFCC66;
+}
+.New-York {
+	background-color: #99CC99;
+}
+.New-Delhi {
+	background-color: #669999;
+}
+.San-Francisco {
+	background-color: #CC6699;
+}
+.Tokyo {
+	background-color: #339966;
+}
+.Sudney {
+	background-color: #666699;
+}
+footer{
+    width: 700px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+body {
+	font-family: sans-serif;
+}
+.nice-day {
+	margin: 20px 0;
+	font-size: 14px;
+	font-family: Lucida Sans Unicode;
+}
+.Forecast{
+	font-size: 22px;
+	font-family: Lucida Sans Unicode;
+}
+.city-name {
+	font-size: 19px;
+}
+.temp {
+	font-size: 15px;
+	font-family: Lucida Sans Unicode;
+}
+.weather-wrap:hover .weather-element{
+  opacity: 0.5;
+}
+.weather-wrap:hover .weather-element:hover{
+  opacity: 1;
+}
+.sunrise {
+	font-size: 21px;
+}
+.sign{
+	font-size: 21px;
+}
